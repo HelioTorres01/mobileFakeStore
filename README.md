@@ -87,4 +87,7 @@ Email: heliotorres63@gmail.com
 LinkedIn: www.linkedin.com/in/heliotorres1
 
 GitHub: https://github.com/HelioTorres01
+
+## License
+  This project is licensed under the [Full Name of the Creative Commons License you chose], as detailed in the LICENSE file at the root of this repository.
     
