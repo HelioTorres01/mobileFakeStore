@@ -72,10 +72,16 @@ Contributing to the Project
 This project was developed as part of an individual evaluation assignment. Therefore, it does not accept external contributions. However, feel free to fork the repository for your own studies and experiments.
 
 If you encounter any issues or have suggestions, you can open an issue in the GitHub repository itself.
+
 ## Author
+
 Name: Hélio Torres
+
 RA: 01679716
+
 Email: heliotorres63@gmail.com
+
 LinkedIn: www.linkedin.com/in/heliotorres1
-GitHub: [Your GitHub Profile Link Here] - Don't forget to add your GitHub profile link!
+
+GitHub: https://github.com/HelioTorres01
     
