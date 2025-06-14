@@ -18,7 +18,7 @@ Before cloning and running this project, ensure you have the following tools ins
 
 *Ionic CLI (Command Line Interface):
    
-    npm install -g @ionic/cli
+      npm install -g @ionic/cli
 
 * **Capacitor CLI** and Resource Tools (optional, but recommended for resources):
     
@@ -30,7 +30,7 @@ Before cloning and running this project, ensure you have the following tools ins
 Follow the steps below to download, set up, and run the project on your local machine:
 
 1. Clone the repository:
-Open your terminal or command prompt and execute:
+ Open your terminal or command prompt and execute:
 
        git clone https://github.com/HelioTorres01/mobileFakeStore.git
     
@@ -52,7 +52,7 @@ Open your terminal or command prompt and execute:
     
 
 6.  **Run the application in the browser:**
-To test the application in your browser, use:
+ To test the application in your browser, use:
    
         ionic serve
    
@@ -60,11 +60,11 @@ To test the application in your browser, use:
 
 7.  **(Optional) Run on Emulator/Device:**
 
-**For Android: You'll need Android Studio configured.**
+ **For Android: You'll need Android Studio configured.**
        
         ionic capacitor run android
         
-**For iOS: You'll need a Mac with Xcode configured.**
+ **For iOS: You'll need a Mac with Xcode configured.**
         
         ionic capacitor run ios
         
