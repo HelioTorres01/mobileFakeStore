@@ -61,7 +61,7 @@ To test the application in your browser, use:
        
         ionic capacitor run android
         
-    * **For iOS: You'll need a Mac with Xcode configured.**
+**For iOS: You'll need a Mac with Xcode configured.**
         
         ionic capacitor run ios
         
