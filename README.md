@@ -1,88 +1,81 @@
-# mobileFakeStore: Loja online!
+## Project Description
+The mobileFakeStore is a mobile application developed with Ionic and Angular, packed with Capacitor, simulating a complete e-commerce experience. Its main goal is to demonstrate the ability to consume data from a public API (Fake Store API), displaying products, their details, and relevant information intuitively and responsively on mobile devices.
 
-## Descrição do Projeto
+This project aims to deepen knowledge in:
 
-O `mobileFakeStore` é um aplicativo móvel desenvolvido com **Ionic** e **Angular**, com empacotamento **Capacitor**, que simula uma experiência de e-commerce completa. Seu objetivo principal é demonstrar a capacidade de consumo de dados de uma API pública (`Fake Store API`), exibindo produtos, seus detalhes e informações relevantes de forma intuitiva e responsiva em dispositivos móveis.
+Hybrid development with Ionic and Angular.
+Consumption of RESTful APIs.
+State management and screen navigation.
+Responsive UI/UX implementation.
+Utilization of version control (Git) and hosting on a public repository.
 
-Este projeto visa aprofundar conhecimentos em:
-* Desenvolvimento híbrido com Ionic e Angular.
-* Consumo de APIs RESTful.
-* Gerenciamento de estado e navegação entre telas.
-* Implementação de UI/UX responsiva.
-* Utilização de controle de versão (Git) e hospedagem em repositório público.
+#Prerequisites
+Before cloning and running this project, ensure you have the following tools installed on your machine:
 
-* ## Pré-requisitos
-
-Antes de clonar e executar este projeto, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
-
-* **Node.js** (versão LTS recomendada)
-* **npm** (gerenciador de pacotes do Node.js, vem junto com o Node.js)
-* **CLI do Ionic** (Command Line Interface):
+Node.js (LTS version recommended)
+npm (Node.js package manager, comes bundled with Node.js)
+Ionic CLI (Command Line Interface):
    
     npm install -g @ionic/cli
 
-* **Capacitor CLI e Ferramentas de Recursos** (opcional, mas recomendado para recursos):
+* **Capacitor CLI and Resource Tools (optional, but recommended for resources):
     
     npm install -g @capacitor/cli cordova-res capacitor-resources
     
-* **Git** (para clonar o repositório)
+* **Git** (to clone the repository)
 
-## Como Baixar
+## How to Download
+Follow the steps below to download, set up, and run the project on your local machine:
 
-Siga os passos abaixo para baixar, configurar e executar o projeto em sua máquina local:
-
-1.  **Clone o repositório:**
-    Abra seu terminal ou prompt de comando e execute:
-   
+1. Clone the repository:
+Open your terminal or command prompt and execute:
     git clone [https://github.com/HelioTorres01/mobileFakeStore.git](https://github.com/HelioTorres01/mobileFakeStore.git)
     
 
-2.  **Navegue até a pasta do projeto:**
+2.  **Navigate to the project folder:**
   
     cd mobileFakeStore
   
 
-3.  **Instale as dependências:**
+3.  **Install dependencies:**
    
     npm install
     
 
-4.  **Sincronize o Capacitor:**
-    Isso copia os assets web para as plataformas nativas e atualiza as dependências do Capacitor.
+4.  **Sync Capacitor:**
+    This copies the web assets to native platforms and updates Capacitor dependencies.
 
     ionic capacitor sync
     
 
-5.  **Execute o aplicativo no navegador:**
-    Para testar o aplicativo em seu navegador, use:
+5.  **Run the application in the browser:**
+To test the application in your browser, use:
    
     ionic serve
    
-    O aplicativo será aberto automaticamente em seu navegador padrão, geralmente em `http://localhost:8100`.
+    The application will automatically open in your default browser, usually at `http://localhost:8100`.
 
-6.  **(Opcional) Executar em Emulador/Dispositivo:**
-    * **Para Android:** Você precisará ter o Android Studio configurado.
+6.  **(Optional) Run on Emulator/Device:**
+
+**For Android: You'll need Android Studio configured.**
        
         ionic capacitor run android
         
-    * **Para iOS:** Você precisará de um Mac com Xcode configurado.
+    * **For iOS: You'll need a Mac with Xcode configured.**
         
         ionic capacitor run ios
         
 
 ## Contribuindo com o Projeto
 
-Este projeto foi desenvolvido como parte de um trabalho de avaliação individual. Portanto, não aceita contribuições externas. No entanto, sinta-se à vontade para bifurcar (fork) o repositório para seus próprios estudos e experimentações.
+Contributing to the Project
+This project was developed as part of an individual evaluation assignment. Therefore, it does not accept external contributions. However, feel free to fork the repository for your own studies and experiments.
 
-Se encontrar algum problema ou tiver sugestões, você pode abrir uma `issue` no próprio repositório do GitHub.
-
-## Autor
-
-Nome:Hélio Torres
-
+If you encounter any issues or have suggestions, you can open an issue in the GitHub repository itself.
+## Author
+Name: Hélio Torres
 RA: 01679716
-
 Email: heliotorres63@gmail.com
-
 LinkedIn: www.linkedin.com/in/heliotorres1
+GitHub: [Your GitHub Profile Link Here] - Don't forget to add your GitHub profile link!
     
