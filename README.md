@@ -12,15 +12,17 @@ Utilization of version control (Git) and hosting on a public repository.
 ## Prerequisites
 Before cloning and running this project, ensure you have the following tools installed on your machine:
 
-Node.js (LTS version recommended)
-npm (Node.js package manager, comes bundled with Node.js)
-Ionic CLI (Command Line Interface):
+*Node.js (LTS version recommended)
+
+*npm (Node.js package manager, comes bundled with Node.js)
+
+*Ionic CLI (Command Line Interface):
    
     npm install -g @ionic/cli
 
 * **Capacitor CLI** and Resource Tools (optional, but recommended for resources):
     
-    npm install -g @capacitor/cli cordova-res capacitor-resources
+      npm install -g @capacitor/cli cordova-res capacitor-resources
     
 * **Git** (to clone the repository)
 
@@ -29,33 +31,34 @@ Follow the steps below to download, set up, and run the project on your local ma
 
 1. Clone the repository:
 Open your terminal or command prompt and execute:
-    git clone [https://github.com/HelioTorres01/mobileFakeStore.git](https://github.com/HelioTorres01/mobileFakeStore.git)
+
+       git clone https://github.com/HelioTorres01/mobileFakeStore.git
     
 
-2.  **Navigate to the project folder:**
+3.  **Navigate to the project folder:**
   
-    cd mobileFakeStore
+        cd mobileFakeStore
   
 
-3.  **Install dependencies:**
+4.  **Install dependencies:**
    
-    npm install
+        npm install
     
 
-4.  **Sync Capacitor:**
+5.  **Sync Capacitor:**
     This copies the web assets to native platforms and updates Capacitor dependencies.
 
-    ionic capacitor sync
+        ionic capacitor sync
     
 
-5.  **Run the application in the browser:**
+6.  **Run the application in the browser:**
 To test the application in your browser, use:
    
-    ionic serve
+        ionic serve
    
     The application will automatically open in your default browser, usually at `http://localhost:8100`.
 
-6.  **(Optional) Run on Emulator/Device:**
+7.  **(Optional) Run on Emulator/Device:**
 
 **For Android: You'll need Android Studio configured.**
        
