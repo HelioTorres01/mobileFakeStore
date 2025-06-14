@@ -79,7 +79,10 @@ Se encontrar algum problema ou tiver sugestões, você pode abrir uma `issue` no
 ## Autor
 
 Nome:Hélio Torres
+
 RA: 01679716
+
 Email: heliotorres63@gmail.com
+
 LinkedIn: www.linkedin.com/in/heliotorres1
     
