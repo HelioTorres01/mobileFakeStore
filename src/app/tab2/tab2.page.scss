@@ -1,0 +1,54 @@
+
+ion-header {
+  ion-toolbar {
+    --background: #007bff; /* Azul vibrante para o cabeçalho */
+    --color: #fff; /* Texto branco */
+    padding-inline-end: 10px; /* Pequeno padding à direita */
+  }
+
+  ion-title {
+    font-size: 1.4em; /* Tamanho da fonte do título */
+    font-weight: bold; /* Título em negrito */
+    text-align: center; /* Centraliza o título */
+  }
+
+  ion-back-button {
+    --color: #fff; /* Cor do ícone de voltar (branco) */
+  }
+}
+
+/* Estilos para a Área de Carregamento e Erro */
+.ion-text-center.ion-padding {
+  margin-top: 40px; /* Margem superior para centralizar melhor */
+  padding: 20px; /* Padding interno */
+
+  ion-spinner {
+    color: #037fd1; /* Cor do spinner azul */
+    width: 50px;
+    height: 50px;
+  }
+
+  p {
+    color: #666; /* Cor do texto de carregamento/erro */
+    font-size: 1.1em;
+    margin-top: 15px;
+  }
+
+  ion-text[color="danger"] {
+    font-weight: bold;
+    margin-bottom: 20px; /* Espaço abaixo da mensagem de erro */
+    display: block;
+    font-size: 1.15em;
+  }
+
+  ion-button {
+    --background: #dc3545; /* Cor de fundo para o botão de tentar novamente (vermelho) */
+    --color: #fff;
+    margin-top: 25px;
+  }
+}
+
+/* Estilos para o Card do Produto */
+ion-card {
+  margin: 20px; 
+}

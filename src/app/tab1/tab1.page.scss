@@ -1,0 +1,131 @@
+/* Estilos para tab1.page.scss */
+
+/* Estilização Geral do Header */
+ion-header {
+  ion-toolbar {
+    --background: #007bff; // Cor de fundo do cabeçalho (Azul Bootstrap)
+    --color: #fff; // Cor do texto do título
+    padding: 0 10px; // Um pouco de padding lateral
+  }
+
+  ion-title {
+    font-size: 1.5em; // Tamanho maior para o título
+    font-weight: bold; // Negrito
+    text-align: center; // Centraliza o título
+  }
+}
+
+/* Estilos para a área de Carregamento e Erro */
+.ion-text-center.ion-padding {
+  margin-top: 20px; // Espaço do topo
+  padding: 20px; // Padding interno
+
+  ion-spinner {
+    color: #007bff; // Cor do spinner (azul)
+    width: 40px;
+    height: 40px;
+  }
+
+  p {
+    color: #666; // Cor do texto de carregamento
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+
+  ion-text[color="danger"] {
+    font-weight: bold;
+    margin-bottom: 15px; // Espaço abaixo da mensagem de erro
+    display: block; // Garante que a margem funcione
+  }
+
+  ion-button {
+    --background: #dc3545; // Cor de fundo do botão de tentar novamente (Vermelho Bootstrap)
+    --color: #fff;
+    margin-top: 20px;
+  }
+}
+
+/* Estilos para a Lista de Produtos */
+ion-list {
+  background: var(--ion-background-color, #f4f5f8); // Fundo da lista
+  padding: 10px; // Padding ao redor da lista
+
+  ion-item {
+    --background: #ffffff; // Fundo de cada item
+    --border-radius: 8px; // Cantos arredondados
+    margin-bottom: 10px; // Espaço entre os itens
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); // Sombra suave
+    transition: transform 0.2s ease-in-out; // Transição para o hover
+
+    &:hover {
+      transform: translateY(-3px); // Efeito de elevação ao passar o mouse
+      cursor: pointer; // Indica que é clicável
+    }
+
+    ion-thumbnail {
+      --size: 80px; // Tamanho da imagem
+      border-radius: 4px; // Cantos arredondados para a imagem
+      margin-inline-end: 15px; // Espaço à direita da imagem
+      overflow: hidden; // Garante que a imagem se ajuste ao border-radius
+
+      img {
+        object-fit: cover; // Garante que a imagem preencha o espaço sem distorcer
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    ion-label {
+      padding: 10px 0; // Padding interno para o texto
+
+      h2 {
+        font-size: 1.2em;
+        font-weight: 600; // Um pouco mais de negrito
+        color: #333; // Cor do título do produto
+        margin-bottom: 5px;
+        white-space: normal; // Permite que o título quebre linha
+        max-height: 2.4em; // Limita o título a 2 linhas
+        overflow: hidden;
+        text-overflow: ellipsis; // Adiciona reticências se o texto for muito longo
+      }
+
+      p {
+        font-size: 0.95em;
+        color: #555; // Cor do texto do preço/categoria
+        margin-bottom: 3px;
+
+        &:last-child {
+          margin-bottom: 0; // Remove margem do último parágrafo
+        }
+      }
+
+      // Estilo específico para o preço
+      p:nth-of-type(1) {
+        font-weight: bold;
+        color: #28a745; // Uma cor verde para o preço
+      }
+
+      // Estilo específico para a categoria
+      p:nth-of-type(2) {
+        font-style: italic;
+        color: #888;
+      }
+    }
+  }
+}
+
+/* Estilos para o Infinite Scroll */
+ion-infinite-scroll-content {
+  font-size: 1em;
+  color: #666;
+}
+
+// Estilos específicos para a toolbar condensada (quando o scroll desce)
+ion-header[collapse="condense"] {
+  ion-toolbar {
+    padding-top: var(--ion-safe-area-top); // Ajusta o padding para a área segura do dispositivo
+  }
+  ion-title {
+    color: #007bff; // Cor do título grande (pode ser diferente do header normal)
+  }
+}
