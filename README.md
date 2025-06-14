@@ -9,7 +9,7 @@ State management and screen navigation.
 Responsive UI/UX implementation.
 Utilization of version control (Git) and hosting on a public repository.
 
-#Prerequisites
+## Prerequisites
 Before cloning and running this project, ensure you have the following tools installed on your machine:
 
 Node.js (LTS version recommended)
@@ -18,7 +18,7 @@ Ionic CLI (Command Line Interface):
    
     npm install -g @ionic/cli
 
-* **Capacitor CLI and Resource Tools (optional, but recommended for resources):
+* **Capacitor CLI** and Resource Tools (optional, but recommended for resources):
     
     npm install -g @capacitor/cli cordova-res capacitor-resources
     
